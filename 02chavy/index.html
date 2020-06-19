@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>chavy</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".slider").bxSlider({
+				auto:true,pager:false,controls:false,
+			});
+		});
+	</script>
+	<style>
+		/*header*/
+		header#header{width: 1200px;margin:0 auto;padding-top:15px;}
+		.logo{width: 180px;background-image: url(images/logo.png);background-repeat:no-repeat;padding:0 auto;float:left;}
+		.logo a{display:block;line-height:71px;text-indent:-9999px;}
+		.gnb .menu{width: 600px;height: 50px;margin: 0 auto;float:left;margin-left:120px;}
+		.gnb .menu li{float:left;width: 20%;font-size:15px;}
+		.gnb .menu,.gnb .login a{display:block; text-align:center; line-height:50px;}
+		.gnb .menu,.gnb .login{padding-top:15px;}
+		.gnb .login{width: 300px;float:left;}
+		.gnb .login li{float:left;width:50%;height: 30px;font-size:15px;}
+		.gnb ul .login li:last-child{margin-right:0;}
+		.gnb .login a{width: 100%;height: 50px;display: block;text-align: center;line-height:50px;border-radius:35px;}
+		.login .btnTwo{background:#2C2C96;color:white; }
+		.gnb .menu li:hover{color:#fff; font-weight: bolder;text-decoration:underline }
+		.gnb .login a:hover{background-color:#2C2C96;color:white;}
+		.login a.btnTwo:active{background-color:red}
+		
+		/*bxslider*/
+		.bx-wrapper{
+	    -moz-box-shadow:none;-webkit-box-shadow: none; box-shadow:none; border:0 none;margin-bottom:0;}
+	.sliderWrap img{/*이미지 수정 or 100% */}
+	    .sliderWrap{}
+	    .sliderWrap .txtWrap{width: 1200px;height: 500px;margin:0 auto;position: relative;}
+	    .sliderWrap .slider li{overflow:hidden;}
+	    .sliderWrap img{position: absolute;_left:50%;}
+	    .sliderWrap .txt{position: absolute;top: 150px;width: 500px;}
+	    .sliderWrap h3{font-size:2.5em;margin-bottom:20px;}
+	    .sliderWrap .txt p{color:#666;}
+	    .sliderWrap .txt a{width:170px;display:block;text-align:center;line-height:50px;border-radius:35px;}
+	    .sliderWrap .txt a:hover{background-color:indigo;color:white;}
+
+		/*style
+	.visual{}
+	.visual .view{width: 1100px; margin:0 auto; position: relative;height: 700px;}
+	.visual .slider li{overflow:hidden;}
+	.visual .slider img .img{position: absolute;left:50%;}
+	.visual .visualTxt{position: absolute;top: 150px;width: 500px;}
+	.vixual .visualTwt h3{font-size:2.5em;margin-bottom:20px;}
+	.vixual .visualTwt p{margin-bottom:20px;}
+	.vixual .visualTwt a{display:block;width: 200px;height: 60px;background:#f00;color:white;border-radius:40px;text-align: center;line-height: 60px;}
+
+    div class="visual">
+	<div class="slider">
+		<li> <!-- W 100% -->
+			<div class="view">
+				<img src="" alt="" class="img">
+				<div class="visualTxt">
+					<h3></h3>
+					<p></p>
+					<a href="#" class=btn>request</a>
+				</div>
+			</div>
+		</li>
+		<li> <!-- W 100% -->
+			<div class="view">
+				<img src="" alt="" class="img">
+			</div>
+		</li>
+	</div>
+   </div> */
+ 
+
+		
+		/*sliderdown*/
+		.sliderdown{width: 100%;height: 200px;background-color: #f8f9ff;margin:0 auto;top:0;}
+		.sliderdown h5{font-size:50px;text-align: center;line-height: 100px}
+		.sliderdown p{text-align: center;color:#666;}
+		
+		/*main*/
+		.main{width: 1200px;margin:0 auto;}
+		.main .maintxt{width: 600px;float:left;}
+		.main .maintxt h5{text-align:center;}
+		.main .maintxt p{text-align:center;}
+		.main .mainimg{width: 600px;float:right;}
+		.main .mainimg li{}
+		.main .mainimg img{} 
+
+		/*foorter*/
+		.footer{width: 100%;height: 400px;background-color: #f8f9ff;}
+		.footerWrap{width: 1200px;margin:0 auto;padding-top:70px;bottom:0;}
+		.footerlogo{width: 600px;}
+		.footermenu{width: 600px;}
+
+	</style>
+</head>
+<body>
+	<header id="header">
+		<nav class="gnb clearfix">
+			<h1 class="logo"><a href="#">chavy</a></h1>
+			<ul class="menu clearfix">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">How It Works</a></li>
+				<li><a href="#">Company</a></li>
+				<li><a href="#">Career</a></li>
+			</ul>
+			<ul class="login clearfix">
+				<li><a href="#" class="btn">Sign in</a></li>
+				<li><a href="#" class="btnTwo">Register</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="sliderWrap">
+		<ul class="slider">
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg01.jpg" alt="">
+					<div class="txt">
+						<h3>Finandial plans for <br>every person and<br>everyshere.</h3>
+						<p>If you believe you can do it go out there and do it cause that is the only way you are gonna get it!</p>
+						<a href="#" class=>Request Demo</a>
+					</div>
+				</div>
+			</li>	
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg02.jpg" alt="">
+					<div class="txt">
+						<h3>A goal without plan<br> just a wish for you.</h3>
+						<p>Go beyond thos paycheck with are solution to employees the guidanc they want.</p>
+						<a href="#">Explore Product</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg03.jpg" alt="">
+					<div class="txt">
+						<h3>Financial planning is about <br> more than just good advice <br> or investment retuns.</h3>
+						<p>Go beyond the paycheck with solution to give your employees the guidance they want and need.</p>
+						<a href="#">Request a Demo</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	
+
+
+	<div class="sliderdown clearfix">
+		<h5>Save money&money will save you.</h5>
+		<p>I will tell you how to become a rich. Close the doors. Be fearful when others are greedy.</p>
+	</div>
+
+	<div class="main clearfix">
+		<div class="maintxt">
+			<h5>The proper guide that helps you to unlock the real potential.</h5>
+			<p>I will tell you how to become a rich. Close the doors. Be fearful when others are greedy. I will tell you how to become a rich.</p>
+			<div class="mainbtn"><a href="#">Request Demo</a></div>
+		</div>
+		<div class="mainimg">
+			<ul class="clearfix">
+				<li>
+					<img src="images/icon01.jpg" alt="">
+					<a href="#">Registration <br>Guide</a>
+				</li>
+				<li>
+					<img src="images/icon02.jpg" alt="">
+					<a href="#">Live Call <br> Support</a>
+				</li>
+				<li>
+					<img src="images/icon03.jpg" alt="">
+					<a href="#">Secured <br> Payment</a>
+				</li>
+				<li>
+					<img src="images/icon04.jpg" alt="">
+					<a href="#">Track Your <br> Move</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="sliderWrap">
+		<ul class="slider ">
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg01.jpg" alt="">
+					<div class="txt">
+						<h3>Finandial plans for every person and everyshere.</h3>
+						<p>If you believe you can do it go out there and do it cause that is the only way you are gonna get it!</p>
+						<a href="#">Request Demo</a>
+					</div>
+				</div>
+			</li>	
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg02.jpg" alt="">
+					<div class="txt">
+						<h3>A goal without plan just a wish for you.</h3>
+						<p>Go beyond thos paycheck with are solution to employees the guidanc they want.</p>
+						<a href="#">Explore Product</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg03.jpg" alt="">
+					<div class="txt">
+						<h3>Financial planning is about more than just good advice or investment retuns.</h3>
+						<p>Go beyond the paycheck with solution to give your employees the guidance they want and need.</p>
+						<a href="#">Request a Demo</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="mainTwo">
+		<h3>With Solution, financial benifits have never been easier.</h3>
+		<ul>
+			<li><a href="#">For Employers</a></li>
+			<li><a href="#">For Owners</a></li>
+		</ul>
+	</div>
+
+	<div class="question">
+		<h3>Frequently Asked Question.</h3>
+		<p>Don't be satisfied with stories, how things have gone with others. Unfold your own myth.</p>
+		<ul class="list">
+			<li><a href="#">1. Does It Work?</a></li>
+			<li><a hr ef="#">2. What is the financial plan?</a></li>
+			<li><a href="#">3. Can I know how it works?</a></li>
+			<li><a href="#">4. How many employers can i expect?</a></li>
+		</ul>
+	</div>
+
+	<div class="sliderWrap">
+		<ul class="slider ">
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg01.jpg" alt="">
+					<div class="txt">
+						<h3>Finandial plans for every person and everyshere.</h3>
+						<p>If you believe you can do it go out there and do it cause that is the only way you are gonna get it!</p>
+						<a href="#">Request Demo</a>
+					</div>
+				</div>
+			</li>	
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg02.jpg" alt="">
+					<div class="txt">
+						<h3>A goal without plan just a wish for you.</h3>
+						<p>Go beyond thos paycheck with are solution to employees the guidanc they want.</p>
+						<a href="#">Explore Product</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="txtWrap">
+					<img src="images/bximg03.jpg" alt="">
+					<div class="txt">
+						<h3>Financial planning is about more than just good advice or investment retuns.</h3>
+						<p>Go beyond the paycheck with solution to give your employees the guidance they want and need.</p>
+						<a href="#">Request a Demo</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="footer">
+		<div class="footerWrap">
+			<div class="footerlogo">
+				<img src="images/logo.png" alt="">
+				<p>Built for every employee, everywhere.</p>
+				<p>580 oras street <br>
+					lan Itali, DA 354130 <br>steam@olution.com </p>
+			</div>
+			<div class="footermemu">	
+
+			</div>
+			<div class="copy">
+				<p>Copyright ⓒ 2020. Syed Roni behalf of isketch. All Rights Reserved.</p>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
