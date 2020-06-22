@@ -30,7 +30,7 @@
 		.gnb .login a{width: 100%;height: 50px;display: block;text-align: center;line-height:50px;border-radius:35px;}
 		.login .btnTwo{background:#2C2C96;color:white; }
 		.gnb .menu li:hover{color:#fff; font-weight: bolder;text-decoration:underline }
-		.gnb .login a:hover{background-color:#2C2C96;color:white;}
+		.gnb .login a:hover{background:#2C2C96;color:white;}
 		.login a.btnTwo:active{background-color:red}
 		
 		/*bxslider*/
@@ -49,24 +49,34 @@
 		/*sliderdown*/
 		.sliderdown{width: 100%;height: 230px;background-color: #f8f9ff;margin:0 auto;top:0;}
 		.sdTxt{width: 1200px;height: 200px;margin:0 auto;padding-top:20px;}
-		.sliderdown h5{font-size:50px;text-align: center;line-height: 100px;margin-bottom:8px;}
+		.sliderdown h3{font-size:40px;text-align: center;line-height: 100px;margin-bottom:8px;}
 		.sliderdown p{text-align: center;color:#666;}
 		
 		/*main*/
 		.main{width: 1200px;height: 500px;margin:0 auto;position: relative;}
 		.main .mainTxt{width: 600px;height: 500px;position: absolute;top:50%;margin-top:-250px;}
-		.main .mainTxt h5{font-size:2.5em;margin-bottom:20px;}
+		.main .mainTxt h3{font-size:2.5em;margin-bottom:20px;}
 		.main .mainTxt p{}
-		.main .mainImg{width: 600px;height: 500px;position: absolute;right:0px}
-		.main .mainImg ul li{float: left;margin-right:10px;width:230px;height: 260px;background:orange;}
-
+		.main .mainImg{width: 600px;height: 500px;position: absolute;right:0;}
+		.main .mainImg ul li{float:left;margin-right:10px;width: 200px;height: 230px;}
+		.main .mainTmg ul a{width: 200px;height:230px;display: block;text-align: center;line-height:50px;} 
 		.main .mainImg img{position: absolute;} 
 
 		/*mainTwo*/
-		.mainTwo{width:1200px;margin:0 auto;}
+		.mainTwo{width:1200px;height: 200px;margin:0 auto;position: relative;}
+		.mainTwo h3{font-size:40px;text-align: center;line-height: 100px;margin-bottom:8px;}
+		.mainTwo .mtBtn{width: 300px;height: 50px;position: absolute;left:50%;margin-left:-150px;background:skyblue;}
+		.mainTwo li{float:left;margin-right:10px}
+		.mainTwo a{width: 140px;height: 50px;text-align:center;line-height:50px;display: block;border-radius:25px;}
+		.mainTwo .mtBtnOne{background:#2C2C96;color:white;}
 
 		/*question*/
 		.question{width: 1200px;margin:0 auto;}
+		.question h3{font-size:40px;text-align: center;line-height: 100px;margin-bottom:;}
+		.question p{text-align: center;color:#666;margin-bottom:60px;}
+		.question li{margin-bottom:40px;}
+		.question a{width: 1000px;height: 100px;display: block;line-height:100px;border-radius:50px;font-size:1.3em;padding-left:80px;border:1px solid #eee;}
+		.question a:hover{box-shadow:0 0 20px #eee;}
 
 		/*foorter*/
 		.footer{width: 100%;height: 400px;background-color: #f8f9ff;}
@@ -130,14 +140,14 @@
 
 	<div class="sliderdown">
 		<div class="sdTxt">
-			<h5>Save money&money will save you.</h5>
+			<h3>Save money&money will save you.</h3>
 			<p>I will tell you how to become a rich. Close the doors. Be fearful <br> when others are greedy.</p>
 		</div>
 	</div>
 
-	<div class="main">
+	<div class="main clearfix">
 		<div class="mainTxt">
-			<h5>The proper guide that helps you to unlock the real potential.</h5>
+			<h3>The proper guide that helps you to unlock the real potential.</h3>
 			<p>I will tell you how to become a rich. Close the doors. Be fearful when others are greedy. I will tell you how to become a rich.</p>
 			<div class="mainbtn"><a href="#">Request Demo</a></div>
 		</div>
@@ -165,8 +175,8 @@
 
 	<div class="mainTwo">
 		<h3>With Solution, financial benifits have never been easier.</h3>
-		<ul>
-			<li><a href="#">For Employers</a></li>
+		<ul class="mtBtn clearfix">
+			<li class="mtBtnOne"><a href="#">For Employers</a></li>
 			<li><a href="#">For Owners</a></li>
 		</ul>
 	</div>
@@ -176,7 +186,7 @@
 		<p>Don't be satisfied with stories, how things have gone with others. Unfold your own myth.</p>
 		<ul class="list">
 			<li><a href="#">1. Does It Work?</a></li>
-			<li><a hr ef="#">2. What is the financial plan?</a></li>
+			<li><a href="#">2. What is the financial plan?</a></li>
 			<li><a href="#">3. Can I know how it works?</a></li>
 			<li><a href="#">4. How many employers can i expect?</a></li>
 		</ul>
