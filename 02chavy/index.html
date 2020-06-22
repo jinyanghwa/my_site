@@ -36,62 +36,37 @@
 		/*bxslider*/
 		.bx-wrapper{
 	    -moz-box-shadow:none;-webkit-box-shadow: none; box-shadow:none; border:0 none;margin-bottom:0;}
-	.sliderWrap img{/*이미지 수정 or 100% */}
 	    .sliderWrap{}
-	    .sliderWrap .txtWrap{width: 1200px;height: 500px;margin:0 auto;position: relative;}
+	    .sliderWrap .txtWrap{width: 1200px;height: 700px;margin:0 auto;position: relative;}
 	    .sliderWrap .slider li{overflow:hidden;}
-	    .sliderWrap img{position: absolute;_left:50%;}
+	    .sliderWrap img{position: absolute;left:50%;}
 	    .sliderWrap .txt{position: absolute;top: 150px;width: 500px;}
-	    .sliderWrap h3{font-size:2.5em;margin-bottom:20px;}
-	    .sliderWrap .txt p{color:#666;}
-	    .sliderWrap .txt a{width:170px;display:block;text-align:center;line-height:50px;border-radius:35px;}
-	    .sliderWrap .txt a:hover{background-color:indigo;color:white;}
-
-		/*style
-	.visual{}
-	.visual .view{width: 1100px; margin:0 auto; position: relative;height: 700px;}
-	.visual .slider li{overflow:hidden;}
-	.visual .slider img .img{position: absolute;left:50%;}
-	.visual .visualTxt{position: absolute;top: 150px;width: 500px;}
-	.vixual .visualTwt h3{font-size:2.5em;margin-bottom:20px;}
-	.vixual .visualTwt p{margin-bottom:20px;}
-	.vixual .visualTwt a{display:block;width: 200px;height: 60px;background:#f00;color:white;border-radius:40px;text-align: center;line-height: 60px;}
-
-    div class="visual">
-	<div class="slider">
-		<li> <!-- W 100% -->
-			<div class="view">
-				<img src="" alt="" class="img">
-				<div class="visualTxt">
-					<h3></h3>
-					<p></p>
-					<a href="#" class=btn>request</a>
-				</div>
-			</div>
-		</li>
-		<li> <!-- W 100% -->
-			<div class="view">
-				<img src="" alt="" class="img">
-			</div>
-		</li>
-	</div>
-   </div> */
- 
-
+	    .sliderWrap .txt h3{font-size:2.5em;margin-bottom:20px;}
+	    .sliderWrap .txt p{margin-bottom:20px; color:#666;}
+	    .sliderWrap .txt a{display:block; width: 200px;height: 60px;background:#2C2C96;color:white;border-radius:40px;text-align:center;line-height:60px;}
+	    .sliderWrap .txt a:hover{background:red;color:white}
 		
 		/*sliderdown*/
-		.sliderdown{width: 100%;height: 200px;background-color: #f8f9ff;margin:0 auto;top:0;}
-		.sliderdown h5{font-size:50px;text-align: center;line-height: 100px}
+		.sliderdown{width: 100%;height: 230px;background-color: #f8f9ff;margin:0 auto;top:0;}
+		.sdTxt{width: 1200px;height: 200px;margin:0 auto;padding-top:20px;}
+		.sliderdown h5{font-size:50px;text-align: center;line-height: 100px;margin-bottom:8px;}
 		.sliderdown p{text-align: center;color:#666;}
 		
 		/*main*/
-		.main{width: 1200px;margin:0 auto;}
-		.main .maintxt{width: 600px;float:left;}
-		.main .maintxt h5{text-align:center;}
-		.main .maintxt p{text-align:center;}
-		.main .mainimg{width: 600px;float:right;}
-		.main .mainimg li{}
-		.main .mainimg img{} 
+		.main{width: 1200px;height: 500px;margin:0 auto;position: relative;}
+		.main .mainTxt{width: 600px;height: 500px;position: absolute;top:50%;margin-top:-250px;}
+		.main .mainTxt h5{font-size:2.5em;margin-bottom:20px;}
+		.main .mainTxt p{}
+		.main .mainImg{width: 600px;height: 500px;position: absolute;right:0px}
+		.main .mainImg ul li{float: left;margin-right:10px;width:230px;height: 260px;background:orange;}
+
+		.main .mainImg img{position: absolute;} 
+
+		/*mainTwo*/
+		.mainTwo{width:1200px;margin:0 auto;}
+
+		/*question*/
+		.question{width: 1200px;margin:0 auto;}
 
 		/*foorter*/
 		.footer{width: 100%;height: 400px;background-color: #f8f9ff;}
@@ -153,21 +128,20 @@
 		</ul>
 	</div>
 
-	
-
-
-	<div class="sliderdown clearfix">
-		<h5>Save money&money will save you.</h5>
-		<p>I will tell you how to become a rich. Close the doors. Be fearful when others are greedy.</p>
+	<div class="sliderdown">
+		<div class="sdTxt">
+			<h5>Save money&money will save you.</h5>
+			<p>I will tell you how to become a rich. Close the doors. Be fearful <br> when others are greedy.</p>
+		</div>
 	</div>
 
-	<div class="main clearfix">
-		<div class="maintxt">
+	<div class="main">
+		<div class="mainTxt">
 			<h5>The proper guide that helps you to unlock the real potential.</h5>
 			<p>I will tell you how to become a rich. Close the doors. Be fearful when others are greedy. I will tell you how to become a rich.</p>
 			<div class="mainbtn"><a href="#">Request Demo</a></div>
 		</div>
-		<div class="mainimg">
+		<div class="mainImg">
 			<ul class="clearfix">
 				<li>
 					<img src="images/icon01.jpg" alt="">
@@ -189,41 +163,6 @@
 		</div>
 	</div>
 
-	<div class="sliderWrap">
-		<ul class="slider ">
-			<li>
-				<div class="txtWrap">
-					<img src="images/bximg01.jpg" alt="">
-					<div class="txt">
-						<h3>Finandial plans for every person and everyshere.</h3>
-						<p>If you believe you can do it go out there and do it cause that is the only way you are gonna get it!</p>
-						<a href="#">Request Demo</a>
-					</div>
-				</div>
-			</li>	
-			<li>
-				<div class="txtWrap">
-					<img src="images/bximg02.jpg" alt="">
-					<div class="txt">
-						<h3>A goal without plan just a wish for you.</h3>
-						<p>Go beyond thos paycheck with are solution to employees the guidanc they want.</p>
-						<a href="#">Explore Product</a>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="txtWrap">
-					<img src="images/bximg03.jpg" alt="">
-					<div class="txt">
-						<h3>Financial planning is about more than just good advice or investment retuns.</h3>
-						<p>Go beyond the paycheck with solution to give your employees the guidance they want and need.</p>
-						<a href="#">Request a Demo</a>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</div>
-
 	<div class="mainTwo">
 		<h3>With Solution, financial benifits have never been easier.</h3>
 		<ul>
@@ -240,41 +179,6 @@
 			<li><a hr ef="#">2. What is the financial plan?</a></li>
 			<li><a href="#">3. Can I know how it works?</a></li>
 			<li><a href="#">4. How many employers can i expect?</a></li>
-		</ul>
-	</div>
-
-	<div class="sliderWrap">
-		<ul class="slider ">
-			<li>
-				<div class="txtWrap">
-					<img src="images/bximg01.jpg" alt="">
-					<div class="txt">
-						<h3>Finandial plans for every person and everyshere.</h3>
-						<p>If you believe you can do it go out there and do it cause that is the only way you are gonna get it!</p>
-						<a href="#">Request Demo</a>
-					</div>
-				</div>
-			</li>	
-			<li>
-				<div class="txtWrap">
-					<img src="images/bximg02.jpg" alt="">
-					<div class="txt">
-						<h3>A goal without plan just a wish for you.</h3>
-						<p>Go beyond thos paycheck with are solution to employees the guidanc they want.</p>
-						<a href="#">Explore Product</a>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="txtWrap">
-					<img src="images/bximg03.jpg" alt="">
-					<div class="txt">
-						<h3>Financial planning is about more than just good advice or investment retuns.</h3>
-						<p>Go beyond the paycheck with solution to give your employees the guidance they want and need.</p>
-						<a href="#">Request a Demo</a>
-					</div>
-				</div>
-			</li>
 		</ul>
 	</div>
 
