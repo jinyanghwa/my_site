@@ -53,22 +53,24 @@
 		.sliderdown p{text-align: center;color:#666;}
 		
 		/*main*/
-		.main{width: 1200px;height: 500px;margin:0 auto;position: relative;}
-		.main .mainTxt{width: 600px;height: 500px;position: absolute;top:50%;margin-top:-250px;}
+		.main{width: 1200px;height: 500px;margin:0 auto;position: relative;margin-top:150px;margin-bottom:150px;}
+		.main .mainTxt{width: 600px;height: 300px;position: absolute;top:50%;margin-top:-150px;}
 		.main .mainTxt h3{font-size:2.5em;margin-bottom:20px;}
-		.main .mainTxt p{}
-		.main .mainImg{width: 600px;height: 500px;position: absolute;right:0;}
-		.main .mainImg ul li{float:left;margin-right:10px;width: 200px;height: 230px;}
-		.main .mainTmg ul a{width: 200px;height:230px;display: block;text-align: center;line-height:50px;} 
-		.main .mainImg img{position: absolute;} 
+		.main .mainTxt p{color:#747474;margin-bottom:20px;}
+		.main .mainTxt a{width:180px;height: 50px;display:block;text-align:center;line-height:50px;background:#2C2C96;color:white;border-radius:25px;}
+		.main .mainImg{width: 400px;height: 500px;position: absolute;right:0;}
+		.main .mainImg li{float:left;margin-right:20px;margin-bottom:20px;width:180px;height: 210px;position: relative;box-shadow:0 0 20px #F0F0F0;}
+		.main .mainTmg a{width: 190px;height:210px;display: block;text-align: center;line-height:-150px;position: absolute;left:50%;margin-left:-95px;top:60px;} 
+		.main .mainImg img{width:100px;height: 100px;position: absolute;top:20px;left:50%;margin-left:-50px;} 
 
 		/*mainTwo*/
-		.mainTwo{width:1200px;height: 200px;margin:0 auto;position: relative;}
+		.mainTwo{width:1200px;height: 200px;margin:0 auto;position: relative;margin-bottom:35px;}
 		.mainTwo h3{font-size:40px;text-align: center;line-height: 100px;margin-bottom:8px;}
-		.mainTwo .mtBtn{width: 300px;height: 50px;position: absolute;left:50%;margin-left:-150px;background:skyblue;}
-		.mainTwo li{float:left;margin-right:10px}
-		.mainTwo a{width: 140px;height: 50px;text-align:center;line-height:50px;display: block;border-radius:25px;}
-		.mainTwo .mtBtnOne{background:#2C2C96;color:white;}
+		.mainTwo .mtBtn{width: 300px;height: 50px;position: absolute;left:50%;margin-left:-150px;}
+		.mainTwo li{float:left;}
+		.mainTwo li:last-child{margin-right:0;}
+		.mainTwo a{width: 150px;height: 50px;text-align:center;line-height:50px;display: block;border-radius:25px;background:#2C2C96;color:white;}
+		.mainTwo a .mtBtnTwo{background: #eee;}
 
 		/*question*/
 		.question{width: 1200px;margin:0 auto;}
@@ -146,13 +148,13 @@
 	</div>
 
 	<div class="main clearfix">
-		<div class="mainTxt">
+		<div class="mainTxt clearfix">
 			<h3>The proper guide that helps you to unlock the real potential.</h3>
 			<p>I will tell you how to become a rich. Close the doors. Be fearful when others are greedy. I will tell you how to become a rich.</p>
 			<div class="mainbtn"><a href="#">Request Demo</a></div>
 		</div>
 		<div class="mainImg">
-			<ul class="clearfix">
+			<ul class="">
 				<li>
 					<img src="images/icon01.jpg" alt="">
 					<a href="#">Registration <br>Guide</a>
@@ -176,8 +178,8 @@
 	<div class="mainTwo">
 		<h3>With Solution, financial benifits have never been easier.</h3>
 		<ul class="mtBtn clearfix">
-			<li class="mtBtnOne"><a href="#">For Employers</a></li>
-			<li><a href="#">For Owners</a></li>
+			<li><a href="#">For Employers</a></li>
+			<li><a class="mtBtnTwo" href="#">For Owners</a></li>
 		</ul>
 	</div>
 
