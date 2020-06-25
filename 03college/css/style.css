@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+.topWrap{background: #0044af;}
+.topWrap .top{width: 1200px;height: 40px;margin:auto;}
+.topWrap .topOne{width: 370px;float:left;}
+.topWrap .topOne li{width: 120px;background: #00163b;margin-right:2px;float:left;}
+.topWrap .topOne a{height: 40px;display:block;text-align:center;line-height:40px;color:#fff;}
+.topWrap .topTwo{width: 330px;float:right;}
+.topWrap .topTwo li{float:left;margin-left:20px;}
+.topWrap .topTwo a{display:block;text-align:center;line-height:40px;font-size:13px;color:#fff;}
+
+/*header*/
+header.headerWrap{background: #fff;}
+#header{width:1200px;height: 120px;margin:auto;padding:30px 0;}
+#header .logo{width: 215px;float:left;}
+#header .logo h1{background-image: url(../images/logo.jpg);
+		background-repeat: no-repeat;}
+#header .logo a{height: 60px;display:block;text-indent:-9999px;}
+#header ul{width: 740px;float:right;}
+#header li{float:left;margin-left:30px;}
+#header ul a{display:block;text-align:center;line-height:60px;color:#434343;}
+
+/*contents*/
+#contents{height: 1300px;background-image:url(../images/00bg_dot.gif), url(../images/00main_bg01.jpg);
+		background-repeat:repeat, no-repeat;background-position: center;
+		background-size:auto,cover;
+		/*--- cover 가로 세로 자동*/
+	}  /*높이값 삭제할 것*/
+#contents .title{width: 1200px;height: 260px;margin:auto;padding-top:80px}
+#contents .titleTxt{width: 690px;float:left;}
+#contents .titleTxt p{font-size:2em;color:#fff;}
+#contents .titleTxt h1{font-size:3em;color:#fff;}
+#contents .titleImg{width:435px;float:right;}
+#contents .titleImg li{float:left;
+}	
+.bx-wrapper{-moz-box-shadow: none;
+				    -webkit-box-shadow: none;
+				    box-shadow:none;
+				    border: 0 none;
+				    margin-bottom:0;}
+#contents .container{width: 1200px;margin:auto;}
+#contents .container li{float:left;width: 25%;height: 255px;
+}
+#contents .container .conOne{width:75%;height: 450px;overflow:hidden;position: relative;}
+#contents .container .sliderOne{width: 100%;height: 450px;}
+#contents .container .conOne img{width: 200%;position: absolute;}
+#contents .container .sliderOneTxt{width: 275px;height: 290px;
+	position:absolute;top:0;color:#fff;top:80px;bottom:80px;left:80px;}
+#contents .container .sliderOneTxt p{font-size:3em;}
+#contents .container .sliderOneTxt a{width: 170px;height: 40px;display:block;
+	line-height:40px;background: #192c4d;color:#fff;}
+#contents .container .conTwo{height: 450px;overflow:hidden;color:#fff;position:relative;}
+#contents .container .conSixImg{height: 450px;background:rgb(0,0,0,0.3);}
+#contents .container .conTwoBox{height: 450px;position: absolute;top:10px;padding:80px 40px;}
+#contents .container .conTwo img{position: absolute;right:-260px;bottom:-45px;}
+#contents .container .conTwoBox h3{font-size:2.2em;margin-bottom:25px;}
+#contents .container .conTwoBox p{font-size:1.2em;margin-bottom:25px;}
+#contents .container .conTwoBox a{width: 170px;height: 40px;background:rgb(0,0,0,0.3);
+		border: 1px solid #fff;display:block;line-height:40px;color:#fff;}
+#contents .container .conThree{background: #00163b;color:#fff;}
+#contents .container .conFour{background: #fff;overflow:hidden;position: relative;}
+#contents .container .conFour img{width: 300%;position: absolute;left:120px;top:30px;}
+#contents .container .conFive{background: #fff;}
+#contents .container .conSix{overflow:hidden;position: relative;}
+#contents .container .conSix img{position: absolute;right:-95px;top:-50px;}
+/*#contents .container .conSixBox  ------------ 이미지에 투명필터 적용하는 방법??
+{width:100%;height: 255px;background:rgba(0,0,0,0.5);}*/
+#contents .container .conSix .overlay{background:rgba(0,0,0,0.8);
+	width:100%;height: 255px;position: absolute;top:195px;transition:0.2s;
+	color:#fff;}
+#contents .container .conSix:hover .overlay{top:0;}	
+#contents .container .conSix p{font-size:20px;text-align:center;padding:17px 0;
+}
+#contents .container .conSeven{overflow:hidden;}
+#contents .container .conEight{width: 75%;overflow:hidden;}
+
+/*footer*/
+.footerWrap{background:#fff;}
+footer#footer{width: 1200px;height: 200px;margin:auto;padding:30px 0;}
+#footer ul{width: 1200px;margin-bottom:10px;}
+#footer li{float:left;margin-right:20px;}
+#footer li:after{content:"";width: 1px;height: 5px;border: 1px solid #424242;display:block;}
+#footer a{display:block;color:#424242;}
+#footer p{color:#7f7f7f;margin-bottom:10px;}
+#footer .footertxt{color:#5b5b5b;}
